@@ -1,2 +1,6 @@
-<h1>NokoPeter#index</h1>
-<p>Find me in app/views/noko_peter/index.html.erb</p>
+<h1>NokoPeter</h1>
+<ul>
+<% for site in @sites %>
+  <li><%= site.site %></li>
+<% end %>
+</ul>
