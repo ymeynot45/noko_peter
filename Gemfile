@@ -27,15 +27,15 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-gem 'find'
+# gem 'find' # broken
 
-gem 'rubygems'
+# gem 'rubygems' # broken
 
 gem 'nokogiri'
 
-gem 'sanitize'
+# gem 'sanitize'
 
-gem 'csv'
+# gem 'csv' # broken
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -43,12 +43,15 @@ group :doc do
 end
 
 group :test, :development do
-  gem 'turn'
+  # gem 'turn'
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'guard-rspec'
-  gem 'growl_notify'
+  # gem 'guard-rspec'
+  # gem 'growl_notify'
 end
+
+
+# --- Not in use
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
