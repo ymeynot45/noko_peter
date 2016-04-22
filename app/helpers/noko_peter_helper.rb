@@ -1,0 +1,2 @@
+module NokoPeterHelper
+end
