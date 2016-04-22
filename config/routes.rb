@@ -1,5 +1,5 @@
 NokoPeter::Application.routes.draw do
-  get "noko_peter/index"
+  root :to => 'noko_peter#index' #'Controller#action'
   resources :noko_peter
 
   # The priority is based upon order of creation: first created -> highest priority.
